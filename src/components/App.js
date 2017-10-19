@@ -1,9 +1,8 @@
 import React, { Component } from 'react';
 import { connect } from 'react-redux';
 import { bindActionCreators } from 'redux';
-import logo from './logo.svg';
-import './App.css';
-// import './App.scss';
+import logo from '../assets/images/logo.svg';
+import './App.scss';
 
 import updateUserStateActions from '../actions/user/updateUserStateActions'
 
