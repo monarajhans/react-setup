@@ -1,15 +1,20 @@
 .App {
-  color: red;
+  .AppLogo {
+    height: 4em;
+    color: red;
+  }
+  .AppTitle {
+    display: inline-block;
+    color: red;
+  }
 }
-.AppLogo {
-  height: 4em;
-}
-.AppTitle {
-  display: inline-block;
-}
+
 
 .originPlace, .destinationPlace, .pickUpAddress {
   display: inline-block;
   width: 30%;
   margin: 1em;
+  div{
+    color: blue;
+  }
 }
